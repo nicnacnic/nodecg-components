@@ -1,0 +1,27 @@
+{
+  "name": "nodecg-components",
+  "version": "1.0.0",
+  "description": "A components library to use with the NodeCG dashboard.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicnacnic/nodecg-components.git"
+  },
+  "author": "nicnacnic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicnacnic/nodecg-components/issues"
+  },
+  "homepage": "https://github.com/nicnacnic/nodecg-components#readme",
+  "nodecg": {
+    "compatibleRange": "^1.8.1",
+    "mount": [
+      {
+        "directory": "components",
+        "endpoint": ""
+      }
+    ]
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
