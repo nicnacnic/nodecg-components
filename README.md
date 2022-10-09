@@ -1,6 +1,9 @@
 # nodecg-components
 A components library to use with the NodeCG dashboard.
 
+# Installing
+`nodecg install nicnacnic/nodecg-components`
+
 # Loading components
 To load components into a dashboard panel, place the following line of HTML code into the head of your document: `<script defer src="/components/<component-name>/<component-name>.js"></script>`
 
